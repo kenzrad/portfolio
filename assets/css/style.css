@@ -1,0 +1,55 @@
+.header {
+    font-size: 60px;
+    padding: 0;
+    font-family: Garamond, Georgia, serif;
+    letter-spacing: 0.4em;
+}
+
+.nav-links {
+    font-size: 20px;
+    padding: 0;
+    font-family: Garamond, Georgia, serif;
+    letter-spacing: 0.1em;
+}
+
+.orange-card {
+    background-color: goldenrod;
+    color: white;
+}
+/* 
+body {
+    background-image: url("../images/qbkls/qbkls.png");
+    font-family: Garamond, Georgia, serif;
+}
+
+.stinky  {
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+} */
+
+.text-muted {
+    color: #777777;
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
+
+/* .card-port {
+    border: solid;
+    border-width: 0.5px;
+    border-color: lightgrey;
+    max-height: 300px;
+    object-fit: cover;
+} */
+
+/* 
+@media screen and (max-width: 640px) {
+
+    .card-port {
+        max-height: 250px;
+    }
+} */
