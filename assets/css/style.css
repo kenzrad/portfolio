@@ -1,3 +1,13 @@
+a {
+    color: #1A1A1D;
+    text-decoration: none; /* no underline */
+}
+
+a:hover {
+    color: #1A1A1D;
+    text-decoration: none; /* no underline */
+}
+
 .header {
     font-size: 60px;
     padding: 0;
@@ -6,16 +16,20 @@
     color: #1A1A1D;
 }
 
-.nav-links {
-    font-size: 20px;
+.nav-link {
+    font-size: 14px;
     padding: 0;
     font-family: Garamond, Georgia, serif;
     letter-spacing: 0.1em;
+    color: #8b8e52
 }
 
-.orange-card {
-    background-color: goldenrod;
-    color: white;
+.card {
+    background-color: #fbfbfb
+}
+
+.navbar {
+    background-color: #fbfbfb
 }
 
 body {
@@ -24,16 +38,30 @@ body {
 }
 
 .text-muted {
-    color: #777777;
-}
-
-.nav-link {
-    font-size: 14px;
+    /* color: #777777; */
+    color: #8b8e52
 }
 
 .navbar-collapse.collapse.in {
     display: block!important;
   }
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.01);
+}
 
   @media only screen and (max-width: 750px) {
     .header {
