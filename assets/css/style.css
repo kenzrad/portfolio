@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Garamond, Georgia, serif;
     letter-spacing: 0.4em;
+    color: #1A1A1D;
 }
 
 .nav-links {
@@ -16,15 +17,11 @@
     background-color: goldenrod;
     color: white;
 }
-/* 
+
 body {
-    background-image: url("../images/qbkls/qbkls.png");
+    background-color: #1A1A1D;
     font-family: Garamond, Georgia, serif;
 }
-
-.stinky  {
-    font-family: "Georgia", "Times", "Times New Roman", "serif";
-} */
 
 .text-muted {
     color: #777777;
@@ -38,18 +35,13 @@ body {
     display: block!important;
   }
 
-/* .card-port {
-    border: solid;
-    border-width: 0.5px;
-    border-color: lightgrey;
-    max-height: 300px;
-    object-fit: cover;
-} */
-
-/* 
-@media screen and (max-width: 640px) {
-
-    .card-port {
-        max-height: 250px;
+  @media only screen and (max-width: 750px) {
+    .header {
+        font-size: 30px;
+        padding: 0;
+        font-family: Garamond, Georgia, serif;
+        letter-spacing: 0.3em;
+        color: #1A1A1D;
     }
-} */
+} 
+
