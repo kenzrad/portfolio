@@ -47,7 +47,7 @@
         <a class="nav-link" href="#">|</a>
       </li>
       <li id="contact-li" class="nav-item">
-        <a class="nav-link" href="#" target="_blank">contact</a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#contactKensey">contact</a>
       </li>
     </ul>
   </div>
@@ -57,16 +57,12 @@
   <div class="card mr-3 my-3 hvr-grow">
     <a href="https://kenzrad.github.io/vinylly/" target="_blank" >
       <div class="card-body">
-        <p class="card-title text-justify"><strong>v i n y l l y</strong> is an interactive digtal record player that visually enhances the musical listening experience with the vintage vibes of vinyl.
+        <p class="card-texttext-justify"><strong>v i n y l l y</strong> is an interactive digtal record player that visually enhances the musical listening experience with the vintage vibes of vinyl.
         </p>  
-
         <img class="card-img card-port" src="assets/images/vinylly.png" alt="vinylly"/>
-    
-        <p class="card-text text-justify">To listen music in vinylly, the user must verify their age (you must be 18+ to enter). Once validated, the user can enter their name (option) and a genre of music. Currently, the library is limited to a few genres (as we have no incorporated the Spotify API yet). Current genres include: rock, psychedelic, rap, hip-hop, soul, jazz, country, and pop.</p>
+        <p class="card-text text-justify my-2">To listen music in vinylly, the user must be 18+. Once validated, the user may enter their name (option) and a genre of music to listen to.</p>
 
-        <p class="card-text text-justify">CSS classes are dynamically manipulated to animate the record player and the album art (jQuery and CSS Hover libraries are used). Bands-in-Town and Last.FM APIs allow the user to view upcomming events and read more about the artist playing</p>
-
-        <p class="card-text text-justify">This is the first generation of vinylly. There are plans to drastically improve the user experience by including a larger library (spotify API) and changing the log-in feature so that the user can directly log into their spotify account. Eventually, vinylly will allow the user to select from a variety of record player skins to customize their experience.</p>
+        <p class="card-text text-justify my-2">CSS classes are dynamically manipulated to animate the record player and the album art (jQuery and CSS Hover libraries are used). Bands-in-Town and Last.FM APIs allow the user to view upcomming events and read more about the artist playing</p>
     
       </div>
     </a> 
@@ -75,23 +71,33 @@
   <div class="card mr-3 my-3 hvr-grow">
     <a href="https://kenzrad.github.io/wordguess_js/" target="_blank" >
       <div class="card-body">
-        <p class="card-title text-justify">Videogame word guess game (basic hangman with javascript)</p>
         <img class="card-img card-port" src="assets/images/hangman.png" alt="hangman">
-        <p class="card-text text-justify">This is a basic word guess game powered by javascript. The user begins the game by pressing any key. Once in the game, a random (video-game themed) word populates. The number of spaces corresponds to the number of letters that must be guessed. Each time the user guesses an incorrect letter, a limb is added to the gallow. 6 wrong guess, and you're out! Be warned - this game is not very nice to you when you guess incorrect letters</p>
-
-        <p class="card-text text-justify">This game tracks the numbers of wins and losses in a session, so you can keep track of your progress! At any point during the game, you can press the "esc" key to exit. Any keys beside letters and "esc" will be ignored!</p>
+        <p class="card-text text-justify my-2">This is a basic word guess game powered by javascript. The user begins the game by pressing any key. Once in the game, a random (video-game themed) word populates. The number of spaces corresponds to the number of letters that must be guessed. Each time the user guesses an incorrect letter, a limb is added to the gallow. 6 wrong guess, and you're out! Be warned - this game is not very nice to you when you guess incorrect letters</p>
       </div>  
     </a>   
   </div>
+
+  <div class="card mr-3 my-3 hvr-grow">
+    <a href="https://github.com/kenzrad/wordguess_constructors/" target="_blank" >
+      <div class="card-body">
+        <h5 class="card-title text-justify">Word Guessing Game CLI App</h5>
+        <iframe height="250" class="embed-responsive"src="https://www.youtube.com/embed/ib95R-dgW_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="card-text text-justify my-1">This is a command line application that uses class constructors to make a basic word guessing game!</p>
+      </div> 
+    </a>   
+  </div>
+
 
 
   <div class="card mr-3 my-3 hvr-grow">
     <a href="https://github.com/kenzrad/liri-node-app" target="_blank">
       <div class="card-body">
-        <p class="card-text text-justify"><strong>LIRI</strong> is a Language Interpretation and Recognition Interface command line node app that takes in parameters and gives the user back data. This app utilizes multiple node.js packages, including fs, moment, chalk, axios, and spotify-node-api. The chalk package is utilized to style the output, which improves readability and enhances the user expierence.</p>
+        <h5 class="card-title">Language Interpretation and Recognition Interface (LIRI)</h5>
         <img class="card-img card-port" src="assets/images/liri.png" alt="LIRI">
-        <p class="card-text text-justify">LIRI creates and appends a log file that records commands and results. This tool is useful for troubleshooting errors received, or returning to data previously searched.</p>
+        <p class="card-text text-justify my-2">This command line node app takes in parameters and gives the user back data. This app utilizes multiple node.js packages, including fs, moment, chalk, axios, and spotify-node-api.</p>
         <img class="card-img card-port" src="assets/images/liri_log.png" alt="LIRI log">
+        <p class="card-text text-justify my-2">LIRI creates and appends a log file that records commands and results. This tool is useful for troubleshooting errors received, or returning to data previously searched.</p>
+       
       </div>
     </a>
   </div>
@@ -99,8 +105,8 @@
   <div class="card mr-3 my-3 hvr-grow">
     <a href="https://kenzrad.github.io/basic_wireframe/" target="_blank" >
       <div class="card-body">
-        <p class="card-title text-justify">Basic Wireframe - Vanilla CSS</p>
-        <p class="card-text text-justify">This was an early coding exercise in CSS styling. Elements on the page utilize absolute, fixed, and relative positioning. Elements are floated to create columns on the page.</p>
+        <p class="card-title text-justify">Basic Wireframe (HTML/CSS Only)</p>
+        <p class="card-text text-justify my-2">This was an early coding exercise in CSS styling. Elements on the page utilize absolute, fixed, and relative positioning. Elements are floated to create columns on the page.</p>
         <img class="card-img card-port" src="assets/images/wireframe.png" alt="wireframe">
       </div>  
     </a>   
@@ -110,7 +116,7 @@
     <a href="https://kenzrad.github.io/crystal-jquery/" target="_blank" >
       <div class="card-body">
         <img class="card-img card-port" src="assets/images/crystal.png" alt="crystal"> 
-        <p class="card-text text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur omnis sapiente deleniti ratione molestiae dolor atque porro nam facilis molestias corrupti voluptatum, sequi non nobis velit ipsam perferendis qui fugiat.</p>
+        <p class="card-text text-justify my-2">The Crystal Collector is a simple math strategy game that utilizes javascript and jQuery. The game is styled with bootstrap and CSS.</p>
       </div> 
     </a> 
   </div>
@@ -119,16 +125,26 @@
     <a href="https://kenzrad.github.io/TriviaGame" target="_blank" >
       <div class="card-body">
         <img class="card-img card-port" src="assets/images/trivia.png" alt="Trivia">
-        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore totam deserunt, culpa eos, nobis excepturi quia rerum repellendus tempore magnam mollitia alias reiciendis aliquid! Explicabo doloribus nisi id numquam quisquam!</p>
+        <p class="card-text text-justify my-2">This app is a "Monty Python: The Holy Grail"-themed Trivia Game! The app utilizes javascript timeout functions and jQuery animations for a bit of cinema. The page is styled with bootstrap as well as custom CSS.</p>
       </div>
     </a>
+  </div>
+
+  <div class="card mr-3 my-3 hvr-grow">
+    <a href="https://github.com/kenzrad/bamazon_sql" target="_blank" >
+      <div class="card-body">
+        <h5 class="card-title">BAMAZON: Outdoor Gear and Apparel</h5>
+        <img class="card-img card-port" src="https://media.giphy.com/media/MX3qJAJr36sT4aDNJ4/giphy.gif" alt="crystal"> 
+        <p class="card-text text-justify my-2">Bamazon is a shopping prototype CLI app that uses a SQL database to track orders, update inventories, and determines trending products</p>
+      </div> 
+    </a> 
   </div>
 
   <div class="card mr-3 my-3 hvr-grow">
     <a href="https://kenzrad.github.io/stuff-in-space" target="_blank" >
       <div class="card-body">
         <img class="card-img card-port" src="assets/images/space.png" alt="Space">
-        <p class="card-text text-justify">Stuff in Space is a giftastic app that uses the GIPHY API, javascript, and JQuery to dynamically populate space-themed gifs on your screen at the click of a button!</p>
+        <p class="card-text text-justify my-2">Stuff in Space is a giftastic app that uses the GIPHY API, javascript, and JQuery to dynamically populate space-themed gifs on your screen at the click of a button!</p>
       </div>
     </a>
   </div>
@@ -137,7 +153,7 @@
     <a href="https://kenzrad.github.io/portfolio_bootstrap/" target="_blank" >
       <div class="card-body">
         <img class="card-img card-port" src="assets/images/portfolio.png" alt="portfolio">
-        <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem labore voluptas autem qui odit alias nemo dolores ad eum iure delectus, laboriosam facilis distinctio optio quam mollitia consectetur quo deserunt?</p>
+        <p class="card-text text-justify my-2">This is a basic portfolio template designed with boostrap. It has a three inter-linked pages, each with mobile responsiveness and a consistent style.</p>
       </div> 
     </a>  
   </div>
@@ -147,15 +163,46 @@
 <br>
 <br>
 
-    <!-- <footer class="footer sticky-bottom container-fluid p-0 mt-5 m-0">
-      <p class="bg-info py-1 m-0"></p>
-      <p class="text-muted text-center bg-dark pt-5 pb-0 m-0">Copyright 2019</p>
-    </footer> -->
-  
+<!-- Modal -->
+<div class="modal fade" id="contactKensey" tabindex="-1" role="dialog" aria-labelledby="contactTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactTitle">Contact Kensey</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="emailInput">Email address</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="subjectInput">Subject</label>
+            <textarea class="form-control" id="subjectInput" rows="1"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="textInput">Comment</label>
+            <textarea class="form-control" id="textInput" rows="6"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="assets/js/portfolio.js"></script>   
 
+  
   </body>
   
 </html>
