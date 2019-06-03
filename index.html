@@ -97,7 +97,15 @@
     </a>   
   </div>
 
-
+  <div class="card mr-3 my-3 hvr-grow">
+    <a href="https://salty-savannah-46210.herokuapp.com/" target="_blank" >
+      <div class="card-body">
+        <h5 class="card-title text-justify">fieldPET - A field notes app</h5>
+        <img class="card-img card-port" src="assets/images/fieldPET.png" alt="fieldPET">
+        <p class="card-text text-justify my-1">fieldPET is a full-stack field notes app for entering and visualizing stream water quality data. Framework: express, express-handlebars, sequelize (mysql/JAWSDB). Data are visualized using charts.js</p>
+      </div> 
+    </a>   
+  </div>
 
   <div class="card mr-3 my-3 hvr-grow">
     <a href="https://github.com/kenzrad/liri-node-app" target="_blank">
@@ -184,7 +192,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form action="mailto:kenzrad@gmail.com" method="post" enctype="text/plain">
           <div class="form-group">
             <label for="emailInput">Email address</label>
             <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
@@ -197,12 +205,9 @@
             <label for="textInput">Comment</label>
             <textarea class="form-control" id="textInput" rows="6"></textarea>
           </div>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
         </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
     </div>
   </div>
 </div>

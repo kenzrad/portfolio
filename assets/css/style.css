@@ -1,3 +1,7 @@
+/*         */
+/*  elems  */
+/*         */
+
 a {
     color: #1A1A1D;
     text-decoration: none; /* no underline */
@@ -8,12 +12,35 @@ a:hover {
     text-decoration: none; /* no underline */
 }
 
+body {
+    background-color: #1A1A1D;
+    font-family: Garamond, Georgia, serif;
+}
+
+
+
+/*         */
+/* classes */
+/*         */
+
+.card {
+    background-color: #fbfbfb
+}
+
 .header {
     font-size: 60px;
     padding: 0;
     font-family: Garamond, Georgia, serif;
     letter-spacing: 0.4em;
     color: #1A1A1D;
+}
+
+.navbar {
+    background-color: #fbfbfb
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
 }
 
 .nav-link {
@@ -23,29 +50,6 @@ a:hover {
     letter-spacing: 0.1em;
     color: #8b8e52
 }
-
-.card {
-    background-color: #fbfbfb
-}
-
-.navbar {
-    background-color: #fbfbfb
-}
-
-body {
-    background-color: #1A1A1D;
-    font-family: Garamond, Georgia, serif;
-}
-
-.text-muted {
-    /* color: #777777; */
-    color: #8b8e52
-}
-
-.navbar-collapse.collapse.in {
-    display: block!important;
-  }
-
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -63,7 +67,18 @@ body {
     transform: scale(1.01);
 }
 
-  @media only screen and (max-width: 750px) {
+.text-muted {
+    /* color: #777777; */
+    color: #8b8e52
+}
+
+
+
+/*         */
+/* media q */
+/*         */
+
+@media only screen and (max-width: 750px) {
     .header {
         font-size: 30px;
         padding: 0;
