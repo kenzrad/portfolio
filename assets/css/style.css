@@ -35,21 +35,6 @@ body {
     color: #1A1A1D;
 }
 
-.navbar {
-    background-color: #fbfbfb
-}
-
-.navbar-collapse.collapse.in {
-    display: block!important;
-}
-
-.nav-link {
-    font-size: 14px;
-    padding: 0;
-    font-family: Garamond, Georgia, serif;
-    letter-spacing: 0.1em;
-    color: #8b8e52
-}
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -65,6 +50,22 @@ body {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.01);
+}
+
+.navbar {
+    background-color: #fbfbfb
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+}
+
+.nav-link {
+    font-size: 14px;
+    padding: 0;
+    font-family: Garamond, Georgia, serif;
+    letter-spacing: 0.1em;
+    color: #8b8e52
 }
 
 .text-muted {
@@ -85,6 +86,10 @@ body {
         font-family: Garamond, Georgia, serif;
         letter-spacing: 0.3em;
         color: #1A1A1D;
+    }
+
+    .bar-view {
+        display: none;
     }
 } 
 
